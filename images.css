@@ -1,0 +1,65 @@
+.my_foto{
+    position: absolute;
+    width: 283.3px;
+    height: 377.74px;
+    left: 116px;
+    top: 203px;
+    right: 1078px;
+    }
+    .logo{
+    position: relative;
+    width: 184px;
+    height: 184px;
+    left: 323px;
+    top: 252px;
+    }
+    .color_1{
+    position: absolute;
+    width: 222.93px;
+    height: 185.85px;
+    left: 608px;
+    top: 260px;
+    }
+    .color_2{
+    position: absolute;
+    width: 222.69px;
+    height: 184.98px;
+    left: 895px;
+    top: 260.87px;
+
+
+    }
+.dos_1{
+    position: absolute;
+    width: 387px;
+    height: 218px;
+    left: 323px;
+    top: 470px;
+
+}
+.dos_2{
+    position: absolute;
+    width: 387px;
+    height: 218px;
+    left: 730px;
+    top: 470px;
+
+}
+
+.dos_3{
+
+    position: absolute;
+    width: 386px;
+    height: 218px;
+    left: 324px;
+    top: 708px;
+
+}
+.dos_4{
+
+    position: absolute;
+    width: 387px;
+    height: 218px;
+    left: 730px;
+    top: 708px;
+}

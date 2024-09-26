@@ -1,0 +1,35 @@
+.container_footer{
+        flex-shrink: 0;
+}
+.footer{
+       background-color: black;
+       width: 100vw;
+       height: 70px;
+
+}
+.footer_list{
+    display: flex;
+    padding:20px 1000px 25px 121px ;
+    column-gap: 30px;
+}
+.footer_elem{
+    color:white;
+    background-color: black;
+    width: 120px;
+    height: 50px;
+    line-height: 21px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 14.4611px;
+    white-space: nowrap;
+    
+}
+
+.footer_elem:hover{
+    color: #F2F99C;
+}
+
+
+
+
+
+

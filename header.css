@@ -1,0 +1,27 @@
+header {
+    position: fixed;
+   background-color: black;
+   width: 100%;
+   height: 80px;
+}
+.navigation_list{
+    display: flex;
+    padding:24px 121px 25px 325px ;
+    column-gap: 24px;
+}
+.navigation_button{
+    background-color: white;
+    border-radius: 75px;
+    width: 182px;
+    height: 31px;
+    line-height: 24px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    white-space: nowrap;
+    
+}
+
+.navigation_button:hover{
+    background-color: #F2F99C;
+}
