@@ -63,3 +63,21 @@
     left: 730px;
     top: 708px;
 }
+.slider_1{
+    height:433.6px;
+    width:724px;
+    position: absolute;
+    transition: 1s;
+}
+.slider_2{
+    height:397px;
+    width:397px ;
+    position: absolute;
+    transition: 1s;
+}
+.slider_3{
+    height:434.06px;
+    width:202.3px;
+    position: absolute;
+    transition: 1s;
+}

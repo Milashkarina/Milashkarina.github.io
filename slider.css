@@ -1,0 +1,19 @@
+.slider_container{
+    height:100%;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    color: white;
+    width: 800px;
+    height:900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:212px 322px 193px 324px;
+
+}
