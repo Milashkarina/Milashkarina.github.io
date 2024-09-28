@@ -67,17 +67,18 @@
     height:433.6px;
     width:724px;
     position: absolute;
-    transition: 1s;
+    z-index: 1;
+    
 }
 .slider_2{
     height:397px;
     width:397px ;
     position: absolute;
-    transition: 1s;
+    
 }
 .slider_3{
     height:434.06px;
     width:202.3px;
     position: absolute;
-    transition: 1s;
+      
 }

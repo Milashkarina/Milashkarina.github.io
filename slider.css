@@ -1,19 +1,48 @@
 .slider_container{
     height:100%;
     width:100%;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
 }
 .container{
-    color: white;
-    width: 800px;
-    height:900px;
+    background-color: white;
+    width: 794px;
+    height:539px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin:212px 322px 193px 324px;
+    margin:39px 322px 25px 322px;
+
+}
+.container_button{
+    background-color: white;
+    width: 794px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:75px;
+    margin:26px 323px 25px 323px ;
+}
+.swiper_button{
+    width: 794px;
+    height: 40px;
+}
+
+.r_arrow{
+    width: 100px;
+    height:19px;
+    padding:10px 30px 10px 320px;
+
+}
+.l_arrow{
+    width: 100px;
+    height:19px;
+    padding:10px 200px 10px 35px;
 
 }
