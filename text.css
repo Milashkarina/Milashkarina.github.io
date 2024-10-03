@@ -1,0 +1,91 @@
+.flex-contaiter_main{
+  display: flex;
+  column-gap: 20px;
+  width: 1208px;
+  height: 953px;
+  margin: 210px 121px 100px 121px;
+  background-color: rgb(255, 170, 0);
+}
+.flex-contaiter_1{
+  display: flex;
+  column-gap:10px;
+  width: 300px;
+  height:740px;
+  margin: 0px 20px 40px 90px;
+  background-color: beige;
+  justify-content: start;
+}
+.flex-contaiter_2{
+  display: flex;
+  flex-direction:column;
+  column-gap: 20px;
+  width: 778px;
+  height: 653px;
+  background-color: rgb(255, 0, 30);
+}
+.flex-contaiter_3{
+  display: flex;
+  flex-wrap: row wrap;
+  width: 778px;
+  height: 200px;
+  background-color: rgb(226, 43, 43);
+
+}
+.flex-container_4 {
+  display: flex;
+  flex-wrap: row wrap;
+  height:200px;
+  width: 778px;
+  background-color: blueviolet;
+}
+.flex-container_5 {
+  display: flex;
+  flex-wrap: row wrap;
+  height:200px;
+  width: 778px;
+  background-color: rgb(43, 156, 226);
+}
+.flex-element_1{
+  width: 335px;
+  height: 553.5px;
+  padding: 10px;
+  
+}
+.flex-element_2{
+  background-color: blue;
+  width: 778px;
+  height:40px;    
+}
+.flex-element_3{
+  width: 778px;
+  height: 200px;
+  background-color: rgb(17, 255, 0);  
+}
+.flex-element_4{
+  width: 778px;
+  height: 100px;
+  background-color: rgb(255, 0, 221);  
+}
+
+.flex-element_5{
+  width: 680px;
+  height: 200px;
+  background-color: #00aeff; 
+}
+.flex-element_6{
+  width: 680px;
+  height: 200px;
+  background-color:rgb(217, 0, 255);
+  
+}
+.flex-element_7{
+  width: 680px;
+  height: 200px;
+  background-color: rgb(255, 0, 132);
+}
+.flex-element_8{
+  width: 680px;
+  height: 200px;
+  background-color: rgb(0, 255, 89);
+  
+}

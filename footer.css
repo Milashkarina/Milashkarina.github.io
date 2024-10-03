@@ -1,15 +1,14 @@
-.container_footer{
-        flex-shrink: 0;
-}
-.footer{
-       background-color: black;
-       width: 100vw;
-       height: 70px;
 
+footer{
+    background-color: black;
+    width: 100%;
+    height: 80px;
 }
+
+
 .footer_list{
     display: flex;
-    padding:20px 1000px 25px 121px ;
+    padding: 25px 500px 0px 100px;
     column-gap: 30px;
 }
 .footer_elem{
@@ -20,14 +19,32 @@
     line-height: 21px;
     font-family: "Dela Gothic One", sans-serif;
     font-size: 14.4611px;
-    white-space: nowrap;
-    
+    white-space: nowrap; 
 }
 
 .footer_elem:hover{
     color: #F2F99C;
 }
-
+.arrow{
+    width: 37px;
+    height: 12px;
+    margin:7px 0px 0px 0px ;
+}
+.icon_1{
+    width: 25px;
+    height: 25px;
+}
+.icon_2{
+    width: 40px;
+    height: 29px;
+}
+.icon_list{
+    display: flex;
+    column-gap: 12px;
+}
+.contacts{
+    margin: 5px 0px 5px 16px;
+}
 
 
 

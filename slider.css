@@ -1,48 +1,97 @@
-.slider_container{
+#slider{
+    margin: 0 auto;
+    width: 794px;
+    max-width: 100%;
+    text-align: center;
+}
+
+#slider input[type=radio]{
+    display: none;
+}
+#slider label{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#slides{
+    padding:10px;
+    border:6px solid white;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+#overflow{
+    width: 100%;
+    overflow: hidden;
+}
+#slide1:checked ~ #slides.inner{
+    margin-left: 0;
+}
+#slide2:checked ~ #slides.inner{
+    margin-left: -100%;
+}
+#slide3:checked ~ #slides.inner{
+    margin-left: -200%;
+}
+#slide4:checked ~ #slides.inner{
+    margin-left: -300%;
+}
+#slide5:checked ~ #slides.inner{
+    margin-left: -400%;
+}
+#slides.inner{
+    transition: margin-left 800ms cubic-bezier(0.770,0.000,0.175,1.000);
+    width:400%;
+    line-height: 0;
+    height: 200px;
+    
+}
+#slides.slide{
+    width: 25%;
+    float: left;
+    display: flex;
+    flex-direction: column;
     height:100%;
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-.container{
-    background-color: white;
-    width: 794px;
-    height:539px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin:39px 322px 25px 322px;
-
-}
-.container_button{
-    background-color: white;
-    width: 794px;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius:75px;
-    margin:26px 323px 25px 323px ;
-}
-.swiper_button{
-    width: 794px;
-    height: 40px;
 }
 
-.r_arrow{
+.slide-content{
+    padding: 10px;
+}
+#controls{
+    margin: -130px 0px 0px 0px;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+}
+#controls label{
+    transition: opasity 0.2s ease-out;
+    display: none;
     width: 100px;
     height:19px;
-    padding:10px 30px 10px 320px;
+    opacity: .4;
+    
+}
+#controls label:hover{
+    opacity: 1;
 
 }
-.l_arrow{
-    width: 100px;
-    height:19px;
-    padding:10px 200px 10px 35px;
 
+.slider_navigation{
+    margin:25px 300px 25px 315px;
+    width: 794px;
+    height: 40px;
+    border-radius: 75px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
+.button_arrow_1{
+    width: 150px;
+    height:40px;
+}
+.button_arrow_2{
+    width: 150px;
+    height:40px;
+}
+

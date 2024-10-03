@@ -2,10 +2,8 @@
     position: absolute;
     width: 283.3px;
     height: 377.74px;
-    left: 116px;
-    top: 203px;
-    right: 1078px;
     }
+    
     .logo{
     position: relative;
     width: 184px;
@@ -81,4 +79,12 @@
     width:202.3px;
     position: absolute;
       
+}
+.contacts_1{
+    width: 50px;
+    height: 50px;
+}
+.contacts_2{
+    width: 57;
+    height: 57px;
 }
