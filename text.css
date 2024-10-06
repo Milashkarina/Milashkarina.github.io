@@ -1,9 +1,18 @@
+.main_text{
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 21px;
+}
+.text{
+  font-family: 'Geologica';
+  font-size: 16px;
+}
+
 .flex-contaiter_main{
   display: flex;
   column-gap: 20px;
-  width: 1208px;
+  width: 1196px;
   height: 953px;
-  margin: 210px 121px 100px 121px;
+  margin: 210px 125px 100px 125px;
   background-color: rgb(255, 170, 0);
 }
 .flex-contaiter_1{
@@ -11,7 +20,7 @@
   column-gap:10px;
   width: 300px;
   height:740px;
-  margin: 0px 20px 40px 90px;
+  margin: 0px 8px 20px 90px;
   background-color: beige;
   justify-content: start;
 }
@@ -48,43 +57,43 @@
 .flex-element_1{
   width: 335px;
   height: 553.5px;
-  padding: 10px;
+  padding: 0px 10px 0px 10px;
   
 }
 .flex-element_2{
   background-color: blue;
-  width: 778px;
+  width: 820px;
   height:40px;    
 }
 .flex-element_3{
-  width: 778px;
+  width: 820px;
   height: 200px;
   background-color: rgb(17, 255, 0);  
 }
 .flex-element_4{
-  width: 778px;
+  width: 820px;
   height: 100px;
   background-color: rgb(255, 0, 221);  
 }
 
 .flex-element_5{
-  width: 680px;
+  width: 820px;
   height: 200px;
   background-color: #00aeff; 
 }
 .flex-element_6{
-  width: 680px;
+  width: 820px;
   height: 200px;
   background-color:rgb(217, 0, 255);
   
 }
 .flex-element_7{
-  width: 680px;
+  width: 820px;
   height: 200px;
   background-color: rgb(255, 0, 132);
 }
 .flex-element_8{
-  width: 680px;
+  width: 820px;
   height: 200px;
   background-color: rgb(0, 255, 89);
   
