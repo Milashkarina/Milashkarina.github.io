@@ -1,13 +1,11 @@
 header {
-    position: fixed;
     background-color: black;
     width: 100%;
     height: 80px;
-    z-index: 2;
 }
 .navigation_list{
     display: flex;
-    padding:24px 121px 25px 325px ;
+    padding:24px 0px 25px 415px ;
     column-gap: 24px;
 }
 .navigation_button{

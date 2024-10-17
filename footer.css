@@ -3,48 +3,63 @@ footer{
     background-color: black;
     width: 100%;
     height: 80px;
+    
 }
-
 
 .footer_list{
     display: flex;
-    padding: 25px 500px 0px 100px;
-    column-gap: 30px;
+    column-gap:12px;
+    margin:25px 35px 15px 40px ;
+}
+.container_footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
 }
 .footer_elem{
     color:white;
     background-color: black;
-    width: 120px;
-    height: 50px;
     line-height: 21px;
     font-family: "Dela Gothic One", sans-serif;
     font-size: 14.4611px;
     white-space: nowrap; 
 }
 
-.footer_elem:hover{
-    color: #F2F99C;
-}
+
 .arrow{
     width: 37px;
     height: 12px;
-    margin:7px 0px 0px 0px ;
+    margin:3px 0px 0px 0px ;
 }
 .icon_1{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
 }
 .icon_2{
-    width: 40px;
-    height: 29px;
+    width:35px;
+    height: 35px;
 }
 .icon_list{
     display: flex;
     column-gap: 12px;
+    justify-content: right;
+    align-content: center;
+    margin:20px 50px 20px 0px ;
 }
+
 .contacts{
-    margin: 5px 0px 5px 16px;
+    width: 900px;
+    height: auto;
 }
+.footer_elem:hover{
+    color: #F2F99C;
+}
+.footer_contact:hover{
+    color: #F2F99C;
+}
+
+
 
 
 

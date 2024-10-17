@@ -8,7 +8,6 @@ html{
 body{
     height:100%;
     background-color:#D1B4F7;
-    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -27,11 +26,7 @@ a{
     text-decoration: none;
     color: inherit;
 }
-ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
+
 h1,h2,h3,p,figure{
   margin: 0;  
 }
@@ -47,7 +42,15 @@ h1,h2,h3,p,figure{
     line-height: 144.09%;
     color: #000000;
 }
-p{
+.p_forma{
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 22px;
+    color: #000000;
+}
+.p{
     font-family: 'Geologica';
     font-style: normal;
     font-weight: 300;
@@ -55,7 +58,7 @@ p{
     line-height: 22px;
     color: #000000;
 }
-.center{
+.center,.h2{
     font-family: "Dela Gothic One", sans-serif;
     position: absolute;
     width: 600px;
@@ -67,6 +70,14 @@ p{
     line-height: 144.09%;
     color: #000000;
 }
+.h2{
+    font-size: 25px;
+    margin:110px 3px;
+}
+.h{
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 19px;
+    padding: 5px 0px 0px 20px;
+}
 
-
-
+ 
