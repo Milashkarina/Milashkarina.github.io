@@ -8,3 +8,11 @@ button.onclick=function(){
 close.onclick=function(){
     modal.style.display="none";
 }
+
+example.onmouseover = function() {
+example.style.color= "#F2F99C";
+};
+
+example.onmouseleave = function() {
+example.style.color= "white";
+};
