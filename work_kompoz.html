@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="images.css">
-    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="index_images.css">
+    <link rel="stylesheet" href="index_slider.css">
     <link rel="stylesheet" href="work_menu.css">
     <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <header>
@@ -40,43 +39,22 @@
                     <a href="work_3D.html"><li class="work_elem"><button class="work_button">3D</button></li></a>
                 </ul>
             </div>
-        </nav>
-        
-        <div id="slider">
-            <div id="slides">
-                <div class="slide slide_1">
-                    <div class="slide-content">
-                        <img src="images/композиция_1.png" alt="">
-                    </div>
-                </div>
-                <div class="slide slide_2">
-                    <div class="slide-content">
-                        <img src="images/композиция_2.png" alt="">
-                    </div>
-                </div>
-                <div class="slide slide_3">
-                    <div class="slide-content">
-                        <img src="images/композиция_3.png" alt="">
-                    </div>
-                </div>
-                <div class="slide slide_4">
-                    <div class="slide-content">
-                        <img src="images/композиция_4.png" alt="">
-                    </div>
-                </div>
-                <div class="slide slide_5">
-                    <div class="slide-content">
-                        <img src="images/композиция_5.png" alt="">
-                    </div>
-                </div>
-                
-            </div>
-            <div class="slider_navigation">
-                <div class="button_arrow_1"><button ><img src="arrow/black_arrow_l.png" alt=""></button></div>
-                <div class="button_arrow_2"><button><img src="arrow/black_arrow_r.png" alt=""></button></div>  
-            </div>
-        </div>
+        </nav> 
     </main>
+    <div class="slider" id="slider">
+        <img  class="slider_1_kompoz" src="images/композиция_1.png" alt="Slider_1">
+        <img  class="slider_2_kompoz" src="images/композиция_2.png" alt="Slider_2">
+        <img  class="slider_2_kompoz"src="images/композиция_3.png" alt="Slider_3">
+        <img  class="slider_2_kompoz"src="images/композиция_4.png" alt="Slider_4">
+        <img  class="slider_3_kompoz"src="images/композиция_5.png" alt="Slider_5">
+    </div>
+    <div class="controls">
+        <div class="button">
+            <button  class="arrow_l" id="btnPrev"><img class="button_arrow" src="arrow/black_arrow_l.png"></button>
+            <button  class="arrow_r"  id="btnNext"><img class="button_arrow" src="arrow/black_arrow_r.png"></button>
+        </div>
+    </div>
+    <script src="index.js"></script>
     <footer>
         <nav class="footer">
             <div class="container_footer">
@@ -93,14 +71,13 @@
                 </ul>
                 <div class="contacts">
                     <ul class="icon_list">
-                        <div ><a href="https://web.whatsapp.com/" class="footer_contact"><li><img id="example" class="icon_1"src="icons/footer_whatsapp.png" alt=""></li></a>
-                        <a href="https://yandex.ru/"class="footer_contact"><li><img class="icon_2"src="icons/footer_vk.png" alt=""></li></a>
-                        <a href="https://t.me/telegram"class="footer_contact"><li><img class="icon_1"src="icons/footer_telegram.png" alt=""></li></a>
+                        <li class="element_icon"><img class="icon_1"src="icons/footer_whatsapp.png" alt=""></li>
+                        <li class="element_icon"><img class="icon_2"src="icons/footer_vk.png" alt=""></li>
+                        <li class="element_icon"><img class="icon_1"src="icons/footer_telegram.png" alt=""></li>
                     </ul>
                 </div>   
             </div>
         </nav>
-    </footer>
-      
+    </footer>     
 </body>
 </html>

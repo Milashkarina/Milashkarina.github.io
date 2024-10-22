@@ -1,0 +1,186 @@
+.my_foto{
+    width: 283.3px;
+    height: 377.74px;
+}
+   
+.logo{
+    width: 184px;
+    height: 184px;
+    align-items: center;
+    }
+
+.color_1{
+    width: 222.93px;
+    height: 185.85px;
+  
+}
+
+.color_2{ 
+    width: 222.69px;
+    height: 184.98px;
+
+}
+
+.dos_1{    
+    width: 387px;
+    height: 218px;
+ 
+}
+
+.dos_2{    
+    width: 387px;
+    height: 218px;
+
+}
+
+.dos_3{
+    width: 386px;
+    height: 218px;
+  
+
+}
+.dos_4{
+    width: 387px;
+    height: 218px;
+
+}
+.slider_1_kompoz{
+    height:397px;
+    width:724px;   
+}
+slider_2_kompoz{
+    height:397px;
+    width:397px ;  
+}
+
+slider_3_kompoz{
+    height:397px;
+    width:200px;      
+}
+
+.img_about{
+  width:379px ;
+  height: 74px;
+}
+.contacts_1{
+    width: 50px;
+    height: 50px;
+}
+.contacts_2{
+    width: 57;
+    height: 57px;
+}
+.flex-contaiter_main{
+    display: flex;
+    column-gap: 20px;
+    row-gap: 10px;
+    width: 778px;
+    height: 600px;
+    margin: 185px 323px 100px 323px;
+    
+    
+  }
+  .flex-contaiter_3{
+    display: flex;
+    flex-wrap: row wrap;
+    width: 778px;
+    height: 200px;
+  
+  }
+  .flex-container_4 {
+    display: flex;
+    flex-wrap: row wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    height:200px;
+    width: 778px;
+    
+  }
+  .flex-container_5 {
+    display: flex;
+    flex-wrap: row wrap;
+    column-gap: 20px;
+    height:200px;
+    width: 778px;
+    
+  }
+  .flex-container_6 {
+    display: flex;
+    flex-wrap: row wrap;
+    column-gap: 20px;
+    height:200px;
+    width: 778px;
+    
+  }
+
+  .flex-element_3{
+    width: 778px;
+    height: 200px;
+    
+  }
+  .flex-element_4{
+    width: 778px;
+    height: 100px;
+      
+  }
+  
+  .flex-element_5{
+    width: 820px;
+    height: 200px;
+    
+  }
+  .flex-element_6{
+    width: 820px;
+    height: 200px;
+    
+   
+  }
+.flex-element_7{
+    width: 820px;
+    height: 200px;
+      
+  }
+  .flex-element_8{
+    width: 820px;
+    height: 200px;
+    
+  }
+  .flex-element_9{
+    width: 820px;
+    height: 200px;
+    
+  }
+  .flex-element_10{
+    width: 820px;
+    height: 200px;
+   
+  }
+  .flex-element_11{
+    width: 820px;
+    height: 200px;
+   
+  }
+ 
+  .yellow_blok1{
+    width: 174.07px;
+    height: 30.44px;
+    background: #F2F99C;
+    border-radius: 80.7855px;
+    
+  }
+  .yellow_blok2{
+    width: 271.1px;
+    height: 31.59px;
+    background: #F2F99C;
+    border-radius: 80.7855px;
+  }
+  .yellow_blok3{
+    width: 380.82px;
+    height: 30.44px;
+    background: #F2F99C;
+    border-radius: 80.7855px;
+  }
+  .arrow{
+    width: 40px ;
+    height: 20px;
+  }
