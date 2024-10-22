@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/images.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/work_menu.css">
+    <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="container_navigation">
+                <ul class="navigation_list">
+                    <a href="index.html"><li class="navigation_elem"><button class="navigation_button">Главная</button></li></a>
+                    <a href="about.html"><li class="navigation_elem"><button class="navigation_button">Обо мне</button></li></a>
+                    <a href="achievements.html"><li class="navigation_elem"><button class="navigation_button">Достижения</button></li></a>
+                    <a href="work_kompoz.html"><li class="navigation_elem"><button class="navigation_button">Работы</button></li></a>
+                    <a href="contacts.html"><li class="navigation_elem"><button class="navigation_button">Контакты</button></li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="h1">Работы</h1>
+        <nav class="main_work"></nav>
+            <div class="work_navigation">
+                <ul class="work_list">
+                    <a href="work_kompoz.html"><li class="work_elem"><button class="work_button">Композиция</button></li></a>
+                    <a href="work_tipograf.html"><li class="work_elem"><button class="work_button">Типография</button></li></a>
+                    <a href="work_color.html"><li class="work_elem"><button class="work_button">Цветоведение</button></li></a>
+                    <a href="work_3D.html"><li class="work_elem"><button class="work_button">3D</button></li></a>
+                </ul>
+            </div>
+        </nav> 
+    </main>
+    <div class="slider" id="slider">
+        <img  class="slider_1_kompoz" src="images/композиция_1.png" alt="Slider_1">
+        <img  class="slider_2_kompoz" src="images/композиция_2.png" alt="Slider_2">
+        <img  class="slider_2_kompoz"src="images/композиция_3.png" alt="Slider_3">
+        <img  class="slider_2_kompoz"src="images/композиция_4.png" alt="Slider_4">
+        <img  class="slider_3_kompoz"src="images/композиция_5.png" alt="Slider_5">
+    </div>
+    <div class="controls">
+        <div class="button">
+            <button  class="arrow_l" id="btnPrev"><img class="button_arrow" src="arrow/black_arrow_l.png"></button>
+            <button  class="arrow_r"  id="btnNext"><img class="button_arrow" src="arrow/black_arrow_r.png"></button>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <footer>
+        <nav class="footer">
+            <div class="container_footer">
+                <ul class="footer_list">
+                    <a href="index.html" class="footer_elem"><li>Главная</li></a>
+                    <img  class="arrow"src="arrow/white_arrow.png" alt="">
+                    <a href="about.html" class="footer_elem"><li>Обо мне</li></a>
+                    <img  class="arrow"src="arrow/white_arrow.png" alt="">
+                    <a href="achievements.html" class="footer_elem"><li>Достижения</li></a>
+                    <img  class="arrow"src="arrow/white_arrow.png" alt="">
+                    <a href="work_kompoz.html" class="footer_elem"><li>Работы</li></a>
+                    <img  class="arrow"src="arrow/white_arrow.png" alt="">
+                    <a href="contacts.html" class="footer_elem"><li>Контакты</li></a>
+                </ul>
+                <div class="contacts">
+                    <ul class="icon_list">
+                        <li class="element_icon"><img class="icon_1"src="icons/footer_whatsapp.png" alt=""></li>
+                        <li class="element_icon"><img class="icon_2"src="icons/footer_vk.png" alt=""></li>
+                        <li class="element_icon"><img class="icon_1"src="icons/footer_telegram.png" alt=""></li>
+                    </ul>
+                </div>   
+            </div>
+        </nav>
+    </footer>     
+</body>
+</html>
