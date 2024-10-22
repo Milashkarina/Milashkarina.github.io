@@ -45,17 +45,69 @@
 
 }
 .slider_1_kompoz{
-    height:397px;
+    height:497px;
     width:724px;   
 }
 slider_2_kompoz{
-    height:397px;
-    width:397px ;  
+    height:497px;
+    width:497px ;  
 }
 
 slider_3_kompoz{
-    height:397px;
+    height:497px;
     width:200px;      
+}
+slider_1_tipograf{
+  height:497px;
+  width:497px;      
+}
+slider_2_tipograf{
+  height:497px;
+  width:362.69px;      
+}
+slider_3_tipograf{
+  height:497px;
+  width:397px;      
+}
+slider_4_tipograf{
+  height:497px;
+  width:494.44px;      
+}
+slider_5_tipograf{
+  height:497px;
+  width:497px;      
+}
+.slider_1_color{
+  height:497px;
+  width:277.72px;     
+}
+slider_2_color{
+  height:497px;
+  width:277.72px;     
+}
+slider_3_color{
+  height:497px;
+  width:296px;     
+}
+.slider_1_3D{
+  height:497px;
+  width:680px;
+}
+.slider_2_3D{
+  height:497px;
+  width:680px;
+}
+.slider_3_3D{
+  height:497px;
+  width:680px;
+}
+.slider_4_3D{
+  height:497px;
+  width:680px;
+}
+.slider_5_3D{
+  height:497px;
+  width:680px;
 }
 
 .img_about{
