@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
-   
+    <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">  
 </head>
 <body>
     <header>
@@ -29,35 +28,51 @@
     </header>
     <main>
     <h1 class="h1">Контакты</h1>
-    <div class="forma">
-        <form class="elem_form" action="" method="get">
-            <label>
-              <p class="p_forma">username</p>
-              <input type="text" name="name">
-            </label>
-            <label>
-                <p class="p_forma">e-mail</p>
-                <input type="text" name="name">
-            </label>
-            <label>
-                <p class="p_forma">number</p>
-                <input type="text" name="name">
-            </label>
-            <button1  class="button1" type="submit">Очистить форму</button1>
-            <button2 class="button2" type="submit">Отправить</button2>
-        </form>
-    </div> 
-    </main>
-    <div id="myModal" class="modal">
-        <div class="modal_content">
+    <div class="flex-contaiter_main_contact">
+        <div class="flex-container_1_contact">
+            <div class="flex-container_2_contact">
+                <div class="flex-element_3_contact">
+                    <div class="contact_icon">
+                        <img src="icons/footer_whatsapp.png" alt="">
+                        <img src="icons/footer_vk.png" alt="">
+                        <img src="icons/footer_telegram.png" alt="">
+                    </div>
+                </div>
+                <div class="flex-element_4_contact">
+                    <div class="forma">
+                        <form class="elem_form" action="" method="get">
+                            <label class="username">
+                              <p class="p_forma">username</p>
+                              <input type="text" name="name">
+                            </label>
+                            <label class="e-mail">
+                                <p class="p_forma">e-mail</p>
+                                <input type="text" name="name">
+                            </label>
+                            <label class="number">
+                                <p class="p_forma">number</p>
+                                <input type="text" name="name">
+                            </label>
+                            <div class="button_form">
+                                <button  class="button1" type="submit">Очистить форму</button>
+                                <button id="myButton" class="button2" type="submit">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>               
+    <div id="myModal" class = "modal">
+        <div class = "modal_content">
             <div id="myClose" class="close">&times;</div>
-            <button id ="myButton"></button>
-            <img class="image_modal"src="icons/check.png" alt="">
-            <h1 class="text_modal">Форма отправлена</h1>
-            <p class="p">Спасибо большое ,что  зарегистрировались на моем сайте</p>
-            <p class="p">Теперь  вы не пропустите ничего интересного!</p>
+             <img class="image_modal" src="icons/check.png" alt="">
+             <div class="margin_text1"><p class="text_modal">Форма отправлена</p></div>
+             <div class="margin_text2"><p class="p_modal">Спасибо большое ,что <br>зарегистрировались на моем сайте)<br>Теперь  вы не пропустите ничего<br>интересного! </p></div>         
         </div>
     </div>
+    <script src="js/modal.js"></script> 
+    </main>
     <footer>
         <nav class="footer">
             <div class="container_footer">

@@ -134,6 +134,8 @@ slider_3_color{
   }
   .flex-contaiter_3{
     display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
     flex-wrap: row wrap;
     width: 778px;
     height: 200px;
@@ -152,6 +154,7 @@ slider_3_color{
     display: flex;
     flex-wrap: row wrap;
     column-gap: 20px;
+    row-gap: 20px;
     height:200px;
     width: 778px;
     
@@ -159,6 +162,7 @@ slider_3_color{
   .flex-container_6 {
     display: flex;
     flex-wrap: row wrap;
+    row-gap: 20px;
     column-gap: 20px;
     height:200px;
     width: 778px;
@@ -236,3 +240,18 @@ slider_3_color{
     width: 40px ;
     height: 20px;
   }
+
+.flex-element_8:hover div img{
+    opacity: 0.5;       
+}
+.flex-element_9:hover div img{
+  opacity: 0.5;       
+}
+.flex-element_10:hover div img{
+  opacity: 0.5;       
+}
+.flex-element_11:hover div img{
+  opacity: 0.5;       
+}
+
+
