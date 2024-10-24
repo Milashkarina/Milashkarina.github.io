@@ -33,35 +33,5 @@
   text-align: center;
   transform: translate(-50%,-50%);  
 }
-.flex-contaiter_main_contact{
-  display: flex;
-  width: 1196px;
-  height: 690px;
-  margin:160px 120px 50px 100px;
- 
-}
-.flex-contaiter_1_contact{
-  display: flex;
-  width: 300px;
-  height:690px;
-  margin: 0px 8px 20px 90px;
- 
-}
-.flex-contaiter_2_contact{
-  display: flex;
-  flex-direction:column;
-  width: 778px;
-  height: 653px;
-}
 
-.flex-element_3_contact{
-  width:850px;
-  height: 800px;
-  
-}
-  .flex-element_4_contact{
-    width: 820px;
-    height: 800px;
-   
-}
 

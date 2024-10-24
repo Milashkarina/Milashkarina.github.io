@@ -4,61 +4,48 @@
   width: 1196px;
   height: 690px;
   margin:160px 120px 50px 100px;
- 
 }
 .flex-contaiter_1{
   display: flex;
   width: 300px;
   height:690px;
-  margin: 0px 8px 20px 90px;
- 
+  margin: 15px 8px 20px 90px;
 }
 .flex-contaiter_2{
   display: flex;
   flex-direction:column;
   width: 778px;
-  height: 653px;
- 
+  height: 653px; 
 }
 .flex-contaiter_3{
   display: flex;
-  flex-wrap: row wrap;
   width: 778px;
   height: 120px;
- 
-
 }
 .flex-container_4 {
   display: flex;
-  flex-wrap: row wrap;
   height:45px;
-  width: 778px;
- 
+  width: 760px;
+  
 }
 .flex-container_5 {
   display: flex;
-  flex-wrap: row wrap;
   height:45px;
   width: 778px;
- 
 }
-  .flex-container_6 {
+.flex-container_6 {
     display: flex;
-    flex-wrap: row wrap;
     height:130px;
     width: 778px;
    
 }
 .flex-container_7 {
   display: flex;
-  flex-wrap: row wrap;
   height:130px;
-  width: 778px;
-  
+  width: 778px; 
 }
 .flex-container_8{
   display: flex;
-  flex-wrap: row wrap;
   column-gap: 35px;
   height:130px;
   width: 778px;
@@ -66,7 +53,6 @@
 }
 .flex-container_9{
   display: flex;
-  flex-wrap: row wrap;
   column-gap: 35px;
   height:130px;
   width: 778px;
@@ -75,7 +61,6 @@
 .flex-element_1{
   width: 335px;
   height: 553.5px;
-  padding: 0px 10px 0px 10px;
   
 }
 .flex-element_2{
@@ -88,9 +73,9 @@
   height: 60px;
   
 }
-  .flex-element_4{
-    width: 820px;
-    height: 45px;
+.flex-element_4{
+  width: 820px;
+  height: 45px;
    
 }
 .flex-element_5{
@@ -110,13 +95,14 @@
 }
 
 .flex-element_8{
-    width: 820px;
-    height: 300px;
+  width: 820px;
+  height: 300px;
    
 }
 .flex-element_9{
   width: 820px;
   height: 250px;
+  
  
 }
 .flex-element_10{
@@ -160,6 +146,10 @@
   font-family: 'Geologica';
   font-size: 16px;
   line-height:20px;
+}
+.arrow{
+  width: 40px ;
+  height: 20px;
 }
 
 

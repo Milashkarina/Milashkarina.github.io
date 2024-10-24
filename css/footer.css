@@ -47,6 +47,10 @@ footer{
     align-content: center;
     margin:20px 50px 20px 0px ;
 }
+.arrow{
+    width: 40px ;
+    height: 20px;
+  }
 
 .contacts{
     width: 900px;
@@ -54,6 +58,10 @@ footer{
 }
 .footer_elem:hover{
     color: #F2F99C;
+}
+.element_icon:hover{
+    color: #F2F99C;
+   
 }
 
 

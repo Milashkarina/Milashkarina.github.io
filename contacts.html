@@ -28,41 +28,42 @@
     </header>
     <main>
     <h1 class="h1">Контакты</h1>
-    <div class="flex-contaiter_main_contact">
-        <div class="flex-container_1_contact">
-            <div class="flex-container_2_contact">
-                <div class="flex-element_3_contact">
-                    <div class="contact_icon">
-                        <img src="icons/footer_whatsapp.png" alt="">
-                        <img src="icons/footer_vk.png" alt="">
-                        <img src="icons/footer_telegram.png" alt="">
-                    </div>
-                </div>
-                <div class="flex-element_4_contact">
-                    <div class="forma">
-                        <form class="elem_form" action="" method="get">
-                            <label class="username">
-                              <p class="p_forma">username</p>
-                              <input type="text" name="name">
-                            </label>
-                            <label class="e-mail">
-                                <p class="p_forma">e-mail</p>
-                                <input type="text" name="name">
-                            </label>
-                            <label class="number">
-                                <p class="p_forma">number</p>
-                                <input type="text" name="name">
-                            </label>
-                            <div class="button_form">
-                                <button  class="button1" type="submit">Очистить форму</button>
-                                <button id="myButton" class="button2" type="submit">Отправить</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+    <div class="container_contact">
+        <div class="contact_icon">
+            <div class="container_icon_1">
+                <div><p class="p_contact">WhatsApp</p></div>
+                <div><a href="https://web.whatsapp.com/"><img  class="icon_whatssapp" src="icons/contacs_icon__whatsapp.png" alt=""></a></div>
+            </div>
+            <div class="container_icon_2">
+                <div><p class="p_contact">Telegram</p></div>
+                <div><a href="https://vc.ru/vk"><img class="icon_telegram" src="icons/contacs_icon_telegram.png" alt=""></a></div>
+            </div>
+            <div class="container_icon_3">
+                <div><p class="p_contact">ВКонтакте</p></div>
+                <div><a href="https://vc.ru/u/2637257-anton-romanov/938156-telegram-veb-poshagovaya-instrukciya"></a><img class="icon_vk" src="icons/contacs_icon_vk.png" alt=""></a></div>
             </div>
         </div>
-    </div>               
+        <div class="forma">
+            <form class="elem_form" action="" method="get">
+                <label class="username">
+                    <p class="p_forma">username</p>
+                    <input type="text" name="name">
+                </label>
+                <label class="e-mail">
+                    <p class="p_forma">e-mail</p>
+                    <input type="text" name="name">
+                </label>
+                <label class="number">
+                    <p class="p_forma">number</p>
+                    <input type="text" name="name">
+                </label>
+                <div class="button_form">
+                    <button  class="button1" type="submit">Очистить форму</button>
+                    <button id="myButton" class="button2" type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>                    
     <div id="myModal" class = "modal">
         <div class = "modal_content">
             <div id="myClose" class="close">&times;</div>
@@ -89,9 +90,9 @@
                 </ul>
                 <div class="contacts">
                     <ul class="icon_list">
-                        <li class="element_icon"><img class="icon_1"src="icons/footer_whatsapp.png" alt=""></li>
-                        <li class="element_icon"><img class="icon_2"src="icons/footer_vk.png" alt=""></li>
-                        <li class="element_icon"><img class="icon_1"src="icons/footer_telegram.png" alt=""></li>
+                        <a href="https://web.whatsapp.com/"><li class="element_icon"><img class="icon_1"src="icons/footer_whatsapp.png" alt=""></li></a>
+                        <a href="https://vc.ru/vk"><li class="element_icon"><img class="icon_2"src="icons/footer_vk.png" alt=""></li></a>
+                        <a href="https://vc.ru/u/2637257-anton-romanov/938156-telegram-veb-poshagovaya-instrukciya"><li class="element_icon"><img class="icon_1"src="icons/footer_telegram.png" alt=""></li></a>
                     </ul>
                 </div>   
             </div>
