@@ -1,0 +1,128 @@
+.forma{
+width: 630px;
+height: 441px;
+background-color: white;
+border-radius: 16.3402px;
+}
+.button1,.button2{
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 15px;
+    width: 169.9px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 69.18px;   
+}
+.button_form{
+    width: 450px;
+    height: 30px;
+    margin: 30px 10px 0px 0px;
+}
+.button2{
+    margin: 0px 0px 0px 101px;
+}
+
+.p_forma,.username,input{
+    margin:10px 10px 15px 10px;
+
+}
+input {
+    width: 428px;
+    height: 30px;
+    }
+.username,.e-mail,.number{
+    width: 428px;
+    height: 30px;
+}    
+.elem_form{
+    width:470px;
+    height: 300px;
+    margin:8px 101px 183px 101px ;
+    padding: 8px 0px 0px 0px; 
+}    
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 2;
+}
+.close{
+    font-size: 30px;
+    color:#ffffff;
+    background-color: #121212;
+    border-radius: 5px;
+    float: right;
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+.modal_content{
+    padding:24px;
+    background-color: #FFFFFF;
+    width: 707px;
+    height: 445.81px;
+    border-radius:30.36px;
+    margin: 77px 0px 0px 350px;
+}
+.image_modal{
+    width:154.95px;
+    height:154.95px;
+    margin: 55px 0px 0px 280px;
+}
+.text_modal{
+    font-family: 'Dela Gothic One';
+    font-size: 32px;
+    text-align: center;    
+}
+.p_modal{
+    text-align: center;
+    font-size: 27px;
+    font-family:'Georgia',serif;
+}
+.margin_text1{
+    margin: 25px 0px 0px 0px;
+}
+.margin_text2{
+    margin: 25px 0px 0px 0px;
+}
+.contact_icon{
+    background-color: white;
+    width:377px;
+    height:441px;
+    border-radius:30.36px;
+}
+.icon_whatssapp,.icon_telegram{
+    width:110.9px ;
+    height:110.9px ;
+}
+.icon_vk{
+    width:110.9px ;
+    height:110.9px ;
+}
+.container_contact{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    height: 441px;
+    width: 1030px;
+    margin: 178px 202px 323px 220px;
+}
+.container_icon_1,.container_icon_2,.container_icon_3{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 20px ;
+    padding: 0px 10px 10px 20px;
+}
+.container_icon_2{
+    gap: 42px;
+}
+.container_icon_3{
+    gap: 18px;
+}
+.p_contact{
+    font-size: 32px;
+    font-family:'Georgia',serif;
+}
