@@ -23,4 +23,5 @@ header {
 
 .navigation_button:hover{
     background-color: #F2F99C;
+    transition: background-color 0.6s;
 }
