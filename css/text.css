@@ -125,7 +125,7 @@
   height: 200px;
  
 }
-  
+
 .yellow_blok1,.yellow_blok2,yellow_blok3{
   width: 174.07px;
   height: 30.44px;
@@ -142,6 +142,25 @@
   width: 380.82px;
   height: 30.44px;
 }
+.yellow_blok1{
+  width: 174.07px;
+  height: 30.44px;
+  background: #F2F99C;
+  border-radius: 80.7855px;
+}
+.yellow_blok2{
+  width: 271.1px;
+  height: 31.59px;
+  background: #F2F99C;
+  border-radius: 80.7855px;
+}
+.yellow_blok3{
+  width: 380.82px;
+  height: 30.44px;
+  background: #F2F99C;
+  border-radius: 80.7855px;
+}
+
 .text{
   font-family: 'Geologica';
   font-size: 16px;
