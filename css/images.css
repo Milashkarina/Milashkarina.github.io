@@ -27,12 +27,12 @@
 }
 
 .slider_1_kompoz{
-    height:497px;
-    width:724px;   
+    height:516px;
+    width:870px;   
 }
 slider_2_kompoz{
-    height:497px;
-    width:497px ;  
+    height:516px;
+    width:879px;  
 }
 
 slider_3_kompoz{
@@ -101,8 +101,8 @@ slider_3_color{
     height: 50px;
 }
 .contacts_2{
-    width: 57;
-    height: 57px;
+    width:57;
+    height:57px;
 }
 .flex_contaiter_achievements_1{
     display: flex;
@@ -187,5 +187,4 @@ slider_3_color{
   width: 387px;
   height: 230px; 
 }
-  
 
