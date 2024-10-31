@@ -48,6 +48,7 @@ input {
     height: 100%;
     background-color: rgba(0,0,0,0.4);
     z-index: 2;
+    display: none;
 }
 .close{
     font-size: 30px;
@@ -93,11 +94,21 @@ input {
     height:441px;
     border-radius:30.36px;
 }
-.icon_whatssapp,.icon_telegram{
+.icon_whatssapp1,.icon_telegram1{
     width:110.9px ;
     height:110.9px ;
+    
 }
-.icon_vk{
+.icon_whatssapp1,.icon_telegram1{
+    width:110.9px ;
+    height:110.9px ;
+    z-index: -1;
+}
+.icon_whatssapp1::hover{
+    display: none;
+
+}
+.icon_vk1{
     width:110.9px ;
     height:110.9px ;
 }
@@ -125,4 +136,15 @@ input {
 .p_contact{
     font-size: 32px;
     font-family:'Georgia',serif;
+}
+
+.button1:hover{
+    color:black;
+    background-color: #F2F99C;
+    transition: background-color 0.6s;
+}
+.button2:hover{
+    color:black;
+    background-color: #F2F99C;
+    transition: background-color 0.6s;
 }

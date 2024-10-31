@@ -24,6 +24,7 @@
 .dos_1,.dos_2,.dos_3,.dos_4{    
     width: 387px;
     height: 218px;
+    
 }
 
 .slider_1_kompoz{
@@ -175,16 +176,31 @@ slider_3_color{
 .orange-column {
   width: 387px;
   height: 230px;
+  position: relative;
 }
 
 .blue-column {
   width: 387px;
   height: 230px;
+  position: relative;
  
 }
 
 .green-column {
   width: 387px;
   height: 230px; 
+  position: relative;
 }
-
+.zoom{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  filter: brightness(20%);
+  
+}
+.zoom:hover::after{
+  opacity:0.5;
+}
