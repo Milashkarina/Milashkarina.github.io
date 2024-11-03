@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/modal_contact.css">
     <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">  
 </head>
@@ -32,15 +32,15 @@
         <div class="contact_icon">
             <div class="container_icon_1">
                 <div><p class="p_contact">WhatsApp</p></div>
-                <div><a href="https://web.whatsapp.com/"><img  class="icon_whatssapp" src="icons/contacs_icon__whatsapp.png" alt=""></a></div>
+                <div><a href="https://web.whatsapp.com/"><img  class="icon_whatssapp1" src="icons/contacs_icon__whatsapp.png" alt=""></a></div>
             </div>
             <div class="container_icon_2">
                 <div><p class="p_contact">Telegram</p></div>
-                <div><a href="https://vc.ru/vk"><img class="icon_telegram" src="icons/contacs_icon_telegram.png" alt=""></a></div>
+                <div><a href="https://vc.ru/vk"><img class="icon_telegram1" src="icons/contacs_icon_telegram.png" alt=""></a></div>
             </div>
             <div class="container_icon_3">
                 <div><p class="p_contact">ВКонтакте</p></div>
-                <div><a href="https://vc.ru/u/2637257-anton-romanov/938156-telegram-veb-poshagovaya-instrukciya"></a><img class="icon_vk" src="icons/contacs_icon_vk.png" alt=""></a></div>
+                <div><a href="https://vc.ru/u/2637257-anton-romanov/938156-telegram-veb-poshagovaya-instrukciya"></a><img class="icon_vk1" src="icons/contacs_icon_vk.png" alt=""></a></div>
             </div>
         </div>
         <div class="forma">
@@ -57,10 +57,8 @@
                     <p class="p_forma">number</p>
                     <input type="text" name="name">
                 </label>
-                <div class="button_form">
-                    <button  class="button1" type="submit">Очистить форму</button>
-                    <button id="myButton" class="button2" type="submit">Отправить</button>
-                </div>
+                <button  class="button1" type="submit">Очистить форму</button>
+                <button id="myBtn" class="button2" type="button">Отправить</button> 
             </form>
         </div>
     </div>                    
@@ -69,10 +67,19 @@
             <div id="myClose" class="close">&times;</div>
              <img class="image_modal" src="icons/check.png" alt="">
              <div class="margin_text1"><p class="text_modal">Форма отправлена</p></div>
-             <div class="margin_text2"><p class="p_modal">Спасибо большое ,что <br>зарегистрировались на моем сайте)<br>Теперь  вы не пропустите ничего<br>интересного! </p></div>         
+             <div class="margin_text2"><p class="p_modal">Спасибо большое ,что <br>отправили данные)<br>В скором времени я свяжусь Вами </p></div>
         </div>
     </div>
-    <script src="js/modal.js"></script> 
+    <div class = "modal">
+        <div class="modal__main">
+            <div class = "modal_content">
+                <div id="myClose" class="close">&times;</div>
+                <img class="image_modal" src="icons/check.png" alt="">
+                <div class="margin_text1"><p class="text_modal">Форма отправлена</p></div>
+                <div class="margin_text2"><p class="p_modal">Спасибо большое ,что <br>отправили данные)<br>В скором времени я свяжусь Вами </p></div>
+            </div>
+        </div>    
+    </div>
     </main>
     <footer>
         <nav class="footer">
@@ -98,5 +105,6 @@
             </div>
         </nav>
     </footer>
+    <script src="js/modal_contacts.js"></script> 
 </body>
 </html>
