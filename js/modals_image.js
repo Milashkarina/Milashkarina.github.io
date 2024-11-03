@@ -1,3 +1,4 @@
+//Модальное окно на странице "Достижения"
 var modal1 = document.getElementById("myModal1");
 var dos_1 = document.getElementById("myImg1");
 var close1 = document.getElementById("myClose1");
